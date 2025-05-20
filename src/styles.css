@@ -39,14 +39,23 @@ section {
 
 /* Bento box grid positions */
 section.weather {
+  font-family: 'Panchang', sans-serif;
+  font-size: 1em;
+  text-align: center;
   grid-column: 1 / span 2;
   grid-row: 1 / span 2;
 }
 section.time {
+  font-family: 'Panchang', sans-serif;
+  font-size: 1em;
+  text-align: center;
   grid-column: 3 / span 2;
   grid-row: 1;
 }
 section.date {
+  font-family: 'Panchang', sans-serif;
+  font-size: 1em;
+  text-align: center;
   grid-column: 3 / span 2;
   grid-row: 2;
 }
@@ -68,60 +77,6 @@ section.date {
 }
 /
 
-
-
-
-
-/* Time */
-.time {
-  
-  
-
-}
-
-
-.hours {
-}
-
-.minutes {
-}
-
-.seconds {
-}
-
-.amOrPM {
-  
-}
-
-/* Date */
-.date {
-  
-}
-
-.month {
-}
-
-.dayOfMonth {
-}
-
-.year {
-}
-
-.dayOfWeek {
-}
-
-/* Weather */
-.weather {
-  
-}
-
-.city {
-  
-}
-
-.temp {
-  
-}
 
 .weather img {
   

@@ -38,7 +38,7 @@ function getWeatherByCoords(lat, lon) {
       
       // Set Elements
       theCity.innerText = data.name;
-      theTemp.innerText = data.main.temp;
+      theTemp.innerText = `${data.main.temp} °F`;
       theIcon.src = `https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`;
     });
 }
